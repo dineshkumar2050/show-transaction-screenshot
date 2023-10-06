@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Unie Neu Black';
+  src: url('../public/fonts/UniNeue-Trial-Black.ttf') format('ttf'); /* specify all formats you have */
+  font-weight: black;
+  font-style: black;
+}
+
+@font-face {
+  font-family: 'Unie Neu Bold';
+  src: url('../public/fonts/UniNeue-Trial-Bold.ttf') format('ttf'); /* specify all formats you have */
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Unie Neu Heavy';
+  src: url('../public/fonts/UniNeue-Trial-Heavy.ttf') format('ttf'); /* specify all formats you have */
+  font-weight: medium;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Unie Neu Light';
+  src: url('../public/fonts/UniNeue-Trial-Light.ttf') format('ttf'); /* specify all formats you have */
+  font-weight: light;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Unie Neu Regular';
+  src: url('../public/fonts/UniNeue-Trial-Regular.ttf') format('ttf'); /* specify all formats you have */
+       /* url('./UnieNeu-Regular.woff') format('woff'); */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Unie Neu Thin';
+  src: url('../public/fonts/UniNeue-Trial-Thin.ttf') format('ttf'); /* specify all formats you have */
+  font-weight: thin;
+  font-style: thin;
+}
+
+* {
+  /* font-family: 'Unie Neu Regular'; */
+  color: #fff;
+}
+
+/* .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 400px; 
+}  */
+
+.just-bold {
+  font-weight: 600; 
+}
+
+.phone-pe-outer {
+  max-width: 400px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* top with green */
+.top-with-green .top-section .time {
+  width: 60px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.top-with-green .top-section {
+  height: 60px;
+}
+
+.top-with-green .top-section .time {
+  width: 92px;
+}
+
+.top-with-green .top-section img {
+  max-width: 100%;
+}
+
+.top-with-green .bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-with-green .bottom-section .middle-section .bottom-section-inner {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.top-with-green .bottom-section {
+  max-height: 38px;
+}
+
+.top-with-green .bottom-section .middle-section {
+  padding-bottom: 6px;
+  margin-top: -6px;
+}
+
+/* .top-with-green .top-section .time {
+  width: 60px;
+} */
+
+.outer-for-bottom-section {
+  padding: 8px;
+  background-color: #0f051a;
+  min-height: calc(100vh - 98px);
+}
+
+.green-bg {
+  background-color: #1d8247;
+}
+
+.j-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.purple-text-color {
+  color: #8a59ce;
+  font-weight: 800;
+  font-size: 11px;
+}
+
+.card {
+  border-radius:10px;
+  padding: 13px 10px;
+  background-color: #22182b;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+/* transaction-id-container */
+.transaction-id-container .bottom-most {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-id-container .left-section {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.transaction-id-container .bottom-most .tran-id {
+  font-size: 15px;
+}
+
+/* paid-to-container */
+.paid-to-container {
+  opacity: 0.8;
+  font-size: 13px;
+}
+.paid-to-container .mid-section {
+  margin: 15px 0 25px 0;
+}
+.paid-to-container .mid-section .left-section {
+  display: flex;
+}
+
+.paid-to-container .bottom-section {
+  text-align: right;
+}
+.paid-to-container img {
+  max-width: 40px;
+  /* max-height: 33px; */
+}
+.paid-to-container .name-and-id {
+  margin-left: 13px;
+}
+
+/* debited-from-container */
+.debited-from-container {
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+.debited-from-container .mid-section {
+  margin: 15px 0 25px 0;
+}
+
+.name-and-id .NAME {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.name-and-id .upi-id {
+  font-size: 13px;
+}
+.debited-from-container .mid-section .left-section {
+  display: flex;
+}
+
+.debited-from-container .bottom-section {
+  text-align: right;
+}
+
+.debited-from-container img {
+  max-width: 33px;
+  max-height: 33px;
+}
+
+/* .debited-from-container .bottom-section {
+  font-weight: 800;
+  font-weight: 12px;
+} */
+
+/* contact-phonepe-support-container */
+.contact-phonepe-support-container {
+  opacity: 0.8;
+}
+
+.contact-phonepe-support-container .top {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+/* rate-the-store-container */
+.rate-the-store-container {
+  display: flex;
+  align-items: center;
+}
+
+.rate-the-store-container img {
+  margin-right: 14px;
+}
+
+.name-and-id {
+  margin-left: 20px;
+}
+
+.powered-by-container img {
+  max-width: 100%;
+}
+
+.rate-the-store-container div {
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.powered-by-container {
+  margin-top: -8px;
+}
+
+/* Reset some default styling
+body, h1, h2, h3, p, label, input, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Basic app layout */
+/* .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7f9fc;
+}
+
+.header {
+  background-color: #139ff2;
+  padding: 16px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Payment form styles */
+/* .payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pay-button {
+  background-color: #139ff2;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+} */
+
+/* ---------------------------------------------------------------- */
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
