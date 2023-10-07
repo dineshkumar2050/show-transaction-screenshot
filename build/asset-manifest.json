@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.319b20e6.css",
+    "main.js": "/static/js/main.217b26f1.js",
+    "static/js/787.1518e12d.chunk.js": "/static/js/787.1518e12d.chunk.js",
+    "static/media/UniNeue-Trial-Black.ttf": "/static/media/UniNeue-Trial-Black.c7c22db17d765abdff6a.ttf",
+    "static/media/UniNeue-Trial-Heavy.ttf": "/static/media/UniNeue-Trial-Heavy.fd9b2dfe2a5eee2bca05.ttf",
+    "static/media/UniNeue-Trial-Bold.ttf": "/static/media/UniNeue-Trial-Bold.7b223ac95c1f979b879b.ttf",
+    "static/media/UniNeue-Trial-Regular.ttf": "/static/media/UniNeue-Trial-Regular.0a6fa42f5367c28edbd8.ttf",
+    "static/media/UniNeue-Trial-Light.ttf": "/static/media/UniNeue-Trial-Light.ed4245a4a07a9077c2cb.ttf",
+    "static/media/UniNeue-Trial-Thin.ttf": "/static/media/UniNeue-Trial-Thin.0964e3d5db595ad7fe1f.ttf",
+    "index.html": "/index.html",
+    "main.319b20e6.css.map": "/static/css/main.319b20e6.css.map",
+    "main.217b26f1.js.map": "/static/js/main.217b26f1.js.map",
+    "787.1518e12d.chunk.js.map": "/static/js/787.1518e12d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.319b20e6.css",
+    "static/js/main.217b26f1.js"
+  ]
+}

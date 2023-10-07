@@ -19,20 +19,20 @@ function TransactionSuccess() {
     useEffect(() => {
         if(dataReceived && Object.keys(dataReceived).length) {
             setData(dataReceived)
-            function sendSMS() {
-                const pathData = url();
-                setTimeout(() => {
-                    (
-                        async function() {
-                            const response = await axios.get(`${pathData}/${dataReceived.customerPhoneNumber}`);
-                            if(response) {
-                                console.log(response);
-                                alert('Message sent successfully');
-                            }
-                        }
-                    )()
-                }, 5000)
-            }
+            // function sendSMS() {
+            //     const pathData = url();
+            //     setTimeout(() => {
+            //         (
+            //             async function() {
+            //                 const response = await axios.get(`${pathData}/${dataReceived.customerPhoneNumber}`);
+            //                 if(response) {
+            //                     console.log(response);
+            //                     alert('Message sent successfully');
+            //                 }
+            //             }
+            //         )()
+            //     }, 5000)
+            // }
             // sendSMS();
         }
     }, [location, dataReceived]);

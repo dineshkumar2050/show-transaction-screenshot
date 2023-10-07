@@ -43,12 +43,12 @@ export default function AddData() {
     const month = String(Number(date.getMonth() + 1));
     const dateNum = date.getDate();
     const year = date.getFullYear();
-    setData({
+    setData(data => ({
         ...data,
         transactionMonth: monthInWords(month),
         transactionDate: dateNum,
         transactionYear: year,
-    })
+    }))
   }, [])
 
   const handleSubmit = (e) => {
