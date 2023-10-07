@@ -8,8 +8,8 @@ import bank_img from './images/img12.jpeg';
 import question_mark from './images/img13.jpeg';
 import bottom_secton from './images/img19.jpeg';
 import { useLocation } from 'react-router-dom';
-import axios from 'axios';
-import { url } from './url';
+// import axios from 'axios';
+// import { url } from './url';
 
 function TransactionSuccess() {
     const [data, setData] = useState({});
